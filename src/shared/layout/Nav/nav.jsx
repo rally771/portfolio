@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+
 export default function Nav() {
   return (
     <nav className="flex justify-between items-center max-w-7xl mx-auto">
@@ -17,13 +19,13 @@ export default function Nav() {
         </div>
         <div className="flex gap-4">
           <a href="#" className="text-gray-900 hover:text-gray-600 transition">
-            {/* <Github size={20} /> */}
+            <FaGithub size={20} />
           </a>
           <a href="#" className="text-gray-900 hover:text-gray-600 transition">
-            {/* <Linkedin size={20} /> */}
+            <FaLinkedin size={20} />
           </a>
           <a href="#" className="text-gray-900 hover:text-gray-600 transition">
-            {/* <Twitter size={20} /> */}
+            <FaTwitter size={20} />
           </a>
         </div>
       </nav>
